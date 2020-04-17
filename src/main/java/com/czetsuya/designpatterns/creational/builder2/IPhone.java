@@ -1,4 +1,4 @@
-package com.czetsuya.designpatterns.creational.builder;
+package com.czetsuya.designpatterns.creational.builder2;
 
 /**
  * @author Edward P. Legaspi | czetsuya@gmail.com

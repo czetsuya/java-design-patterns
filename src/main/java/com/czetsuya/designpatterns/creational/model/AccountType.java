@@ -1,8 +1,8 @@
-package com.czetsuya.designpatterns.creational.abstractfactory;
+package com.czetsuya.designpatterns.creational.model;
 
 /**
  * @author Edward P. Legaspi | czetsuya@gmail.com
  */
 public enum AccountType {
-    WEB, MOBILE
+    CA, BA, UA
 }

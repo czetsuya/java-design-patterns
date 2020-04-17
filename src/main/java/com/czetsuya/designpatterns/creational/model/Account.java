@@ -1,10 +1,16 @@
-package com.czetsuya.designpatterns.creational.abstractfactory;
+package com.czetsuya.designpatterns.creational.model;
+
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  * @author Edward P. Legaspi | czetsuya@gmail.com
  */
+@Getter
+@Setter
 public abstract class Account {
 
+    private String externalReference;
     private String name;
 
     public String getName() {

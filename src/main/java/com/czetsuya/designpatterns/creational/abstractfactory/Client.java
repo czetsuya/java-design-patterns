@@ -1,12 +1,16 @@
 package com.czetsuya.designpatterns.creational.abstractfactory;
 
+import java.util.Arrays;
+
+import com.czetsuya.designpatterns.creational.model.AccountType;
+
 /**
  * @author Edward P. Legaspi | czetsuya@gmail.com
  */
 public class Client {
 
     public static void main(String[] args) {
-        System.out.println(AbstractFactory.getFactory(AccountType.MOBILE).createAccount().getClass());
-        System.out.println(AbstractFactory.getFactory(AccountType.WEB).createAccount().getClass());
+        Arrays.asList(AccountType.values()).forEach(e -> System.out.println(AbstractAccountFactory.getFactory(e).createAccount()));
     }
+
 }
