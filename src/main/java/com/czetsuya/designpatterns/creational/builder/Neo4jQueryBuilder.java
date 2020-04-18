@@ -7,7 +7,7 @@ public class Neo4jQueryBuilder extends AbstractQueryBuilder {
 
     @Override
     void buildQuery() {
-        query.setSql("neo4j");
+        query.setSql("neo4j  " + query.getParameters());
     }
 
 }

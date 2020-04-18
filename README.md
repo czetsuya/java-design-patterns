@@ -7,3 +7,5 @@
 ## Creational
 
  - AbstractFactory
+ - Builder
+ - Singleton

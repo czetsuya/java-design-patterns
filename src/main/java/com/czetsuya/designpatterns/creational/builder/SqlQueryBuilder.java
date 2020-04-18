@@ -7,7 +7,7 @@ public class SqlQueryBuilder extends AbstractQueryBuilder {
 
     @Override
     void buildQuery() {
-        query.setSql("sql");
+        query.setSql("sql " + query.getParameters());
     }
 
 }

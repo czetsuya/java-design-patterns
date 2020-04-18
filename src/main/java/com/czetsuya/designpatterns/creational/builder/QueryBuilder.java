@@ -1,5 +1,7 @@
 package com.czetsuya.designpatterns.creational.builder;
 
+import java.util.Map;
+
 /**
  * @author Edward P. Legaspi | czetsuya@gmail.com
  */
@@ -15,8 +17,9 @@ public class QueryBuilder {
         return builder.getQuery();
     }
 
-    public void buildQuery() {
+    public void buildQuery(Map<String, Object> parameters) {
         builder.createQuery();
+        builder.setParameters(parameters);
         builder.buildQuery();
     }
 
