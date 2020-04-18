@@ -1,4 +1,4 @@
-package com.czetsuya.designpatterns.creational.model;
+package com.czetsuya.designpatterns.model;
 
 import java.util.Date;
 

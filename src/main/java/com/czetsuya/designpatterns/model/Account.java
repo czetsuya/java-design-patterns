@@ -1,4 +1,4 @@
-package com.czetsuya.designpatterns.creational.model;
+package com.czetsuya.designpatterns.model;
 
 import lombok.Getter;
 import lombok.Setter;
