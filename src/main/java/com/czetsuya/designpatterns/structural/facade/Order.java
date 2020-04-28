@@ -1,4 +1,4 @@
-package com.czetsuya.designpatterns.behavioral.facade;
+package com.czetsuya.designpatterns.structural.facade;
 
 /**
  * @author Edward P. Legaspi | czetsuya@gmail.com

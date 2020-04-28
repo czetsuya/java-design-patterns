@@ -3,9 +3,17 @@
 
 # Java Design Pattern Examples
 
+Design patterns demonstration in Java.
 
 ## Creational
 
+ - Factory
  - AbstractFactory
  - Builder
  - Singleton
+ - Prototype
+ 
+## Structural
+ 
+ - Facade
+ - Adapter
