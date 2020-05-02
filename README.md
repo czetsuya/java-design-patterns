@@ -17,3 +17,5 @@ Design patterns demonstration in Java.
  
  - Facade
  - Adapter
+ - Decorator
+ - Bridge
