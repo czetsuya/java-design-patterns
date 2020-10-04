@@ -15,11 +15,11 @@ public class Preference {
     private static Preference instance;
     private Properties properties = new Properties();
 
-    public static synchronized void createInstance() {
+    private static void createInstance() {
         instance = new Preference();
     }
 
-    public static Preference getInstance() {
+    public static synchronized Preference getInstance() {
         if (instance == null) {
             createInstance();
         }
