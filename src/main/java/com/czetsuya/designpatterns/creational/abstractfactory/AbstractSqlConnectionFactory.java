@@ -20,5 +20,5 @@ public abstract class AbstractSqlConnectionFactory {
         return factory;
     }
 
-    abstract AbstractSqlConnection createSqlConnection();
+    public abstract AbstractSqlConnection createSqlConnection();
 }

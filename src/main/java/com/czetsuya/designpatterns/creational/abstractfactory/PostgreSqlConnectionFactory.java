@@ -6,7 +6,7 @@ package com.czetsuya.designpatterns.creational.abstractfactory;
 public class PostgreSqlConnectionFactory extends AbstractSqlConnectionFactory {
 
     @Override
-    AbstractSqlConnection createSqlConnection() {
+    public AbstractSqlConnection createSqlConnection() {
         return new PostgreSqlConnection();
     }
 

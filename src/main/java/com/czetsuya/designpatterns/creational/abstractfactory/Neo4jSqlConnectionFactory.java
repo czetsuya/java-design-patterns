@@ -6,7 +6,7 @@ package com.czetsuya.designpatterns.creational.abstractfactory;
 public class Neo4jSqlConnectionFactory extends AbstractSqlConnectionFactory {
 
     @Override
-    AbstractSqlConnection createSqlConnection() {
+    public AbstractSqlConnection createSqlConnection() {
         return new Neo4jSqlConnection();
     }
 
