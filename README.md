@@ -9,12 +9,15 @@ Design patterns demonstration in Java.
  - Factory
  - AbstractFactory
  - Builder
- - Singleton
  - Prototype
+ - Singleton
  
 ## Structural
  
- - Facade
  - Adapter
- - Decorator
  - Bridge
+ - Composite
+ - Decorator
+ - Facade
+ - Flyweight
+ - Proxy
