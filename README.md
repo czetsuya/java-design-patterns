@@ -21,3 +21,9 @@ Design patterns demonstration in Java.
  - Facade
  - Flyweight
  - Proxy
+
+## Behavioral
+
+ - Command
+ - Strategy
+ - Visitor
