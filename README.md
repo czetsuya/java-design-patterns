@@ -27,3 +27,4 @@ Design patterns demonstration in Java.
  - Command
  - Strategy
  - Visitor
+ - Observer
