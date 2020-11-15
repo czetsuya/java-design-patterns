@@ -9,7 +9,7 @@ import java.util.Map;
 public class Client {
 
     public static void main(String[] args) {
-        Map<String, Object> params = new HashMap<String, Object>();
+        Map<String, Object> params = new HashMap<>();
         params.put("id", 1L);
 
         QueryBuilder builder = new QueryBuilder();
