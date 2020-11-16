@@ -28,3 +28,4 @@ Design patterns demonstration in Java.
  - Strategy
  - Visitor
  - Observer
+ - Memento
