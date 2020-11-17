@@ -29,3 +29,4 @@ Design patterns demonstration in Java.
  - Visitor
  - Observer
  - Memento
+ - Mediator
